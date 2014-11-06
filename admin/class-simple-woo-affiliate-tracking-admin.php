@@ -56,10 +56,10 @@ class Simple_Woo_Affiliate_Tracking_Admin {
 
         add_submenu_page(
         			'tools.php',
-        			'Simple WooCommerce Affiliate Tracker',
-        			'Simple WooCommerce Affiliate Tracker',
+        			'Simple Woo Affiliate Tracking',
+        			'Simple Woo Affiliate Tracking',
         			'manage_options',
-        			'simple-woocommerce-affiliate-tracker',
+        			'simple-woo-affiliate-tracking',
         			array( $this, 'render_admin_panel' )
         );
 
